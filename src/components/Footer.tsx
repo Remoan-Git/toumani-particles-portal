@@ -1,3 +1,4 @@
+
 import { Github, Linkedin, Twitter } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
@@ -61,19 +62,19 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-start text-sm text-foreground/70">
                 <span className="mr-2">📧</span>
-                <a href="mailto:info@toumani.dev" className="hover:text-primary transition-colors">
-                  info@toumani.dev
+                <a href="mailto:remontomany@gmail.com" className="hover:text-primary transition-colors">
+                  remontomany@gmail.com
                 </a>
               </li>
               <li className="flex items-start text-sm text-foreground/70">
                 <span className="mr-2">📱</span>
-                <a href="tel:+11234567890" className="hover:text-primary transition-colors">
-                  +1 (123) 456-7890
+                <a href="tel:+963949191847" className="hover:text-primary transition-colors">
+                  +963 949191847
                 </a>
               </li>
               <li className="flex items-start text-sm text-foreground/70">
                 <span className="mr-2">📍</span>
-                <span>San Francisco, CA, USA</span>
+                <span>Damascus, Syria</span>
               </li>
             </ul>
           </div>

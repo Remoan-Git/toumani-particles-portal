@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -35,8 +36,8 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-bold mb-1">Email</h4>
                   <p className="text-foreground/70 text-sm mb-2">Feel free to email me</p>
-                  <a href="mailto:info@remoantoumani.dev" className="text-primary hover:underline">
-                    info@remoantoumani.dev
+                  <a href="mailto:remontomany@gmail.com" className="text-primary hover:underline">
+                    remontomany@gmail.com
                   </a>
                 </div>
               </div>
@@ -51,8 +52,8 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-bold mb-1">Phone</h4>
                   <p className="text-foreground/70 text-sm mb-2">Call me during business hours</p>
-                  <a href="tel:+11234567890" className="text-primary hover:underline">
-                    +1 (123) 456-7890
+                  <a href="tel:+963949191847" className="text-primary hover:underline">
+                    +963 949191847
                   </a>
                 </div>
               </div>
@@ -67,7 +68,7 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-bold mb-1">Location</h4>
                   <p className="text-foreground/70 text-sm mb-2">Based in</p>
-                  <span className="text-primary">San Francisco, CA, USA</span>
+                  <span className="text-primary">Damascus, Syria</span>
                 </div>
               </div>
             </Card>
