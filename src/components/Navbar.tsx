@@ -66,9 +66,9 @@ export default function Navbar() {
       <div className="container flex items-center justify-between">
         <a href="#home" className="flex items-center space-x-2">
           <div className="h-8 w-8 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 flex items-center justify-center text-white font-bold">
-            T
+            R
           </div>
-          <span className="font-bold tracking-tight text-xl">Toumani</span>
+          <span className="font-bold tracking-tight text-xl">Remoan Toumani</span>
         </a>
 
         {/* Desktop Menu */}

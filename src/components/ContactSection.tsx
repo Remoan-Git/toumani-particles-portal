@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -36,8 +35,8 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-bold mb-1">Email</h4>
                   <p className="text-foreground/70 text-sm mb-2">Feel free to email me</p>
-                  <a href="mailto:info@toumani.dev" className="text-primary hover:underline">
-                    info@toumani.dev
+                  <a href="mailto:info@remoantoumani.dev" className="text-primary hover:underline">
+                    info@remoantoumani.dev
                   </a>
                 </div>
               </div>

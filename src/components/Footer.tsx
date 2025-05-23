@@ -1,4 +1,3 @@
-
 import { Github, Linkedin, Twitter } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
@@ -13,9 +12,9 @@ export default function Footer() {
           <div className="md:col-span-2">
             <a href="#home" className="flex items-center space-x-2 mb-4">
               <div className="h-8 w-8 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 flex items-center justify-center text-white font-bold">
-                T
+                R
               </div>
-              <span className="font-bold tracking-tight text-xl">Toumani</span>
+              <span className="font-bold tracking-tight text-xl">Remoan Toumani</span>
             </a>
             <p className="text-foreground/70 text-sm mb-4 max-w-md">
               Creating exceptional digital experiences through modern front-end development. 
@@ -84,7 +83,7 @@ export default function Footer() {
         
         {/* Copyright */}
         <div className="text-center text-sm text-foreground/50">
-          <p>&copy; {currentYear} Toumani. All rights reserved.</p>
+          <p>&copy; {currentYear} Remoan Toumani. All rights reserved.</p>
         </div>
       </div>
     </footer>
