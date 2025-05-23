@@ -1,7 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { GitHubLogoIcon, LinkedInLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
-import { ArrowDownIcon, ArrowRightIcon } from "lucide-react";
+import { Github, Linkedin, Twitter, ArrowDown, ArrowRight } from "lucide-react";
 import ParticlesBackground from "./ParticlesBackground";
 
 export default function Hero() {
@@ -36,7 +35,7 @@ export default function Hero() {
           <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
             <Button className="btn-gradient text-lg px-8 py-6">
               <span className="relative z-10">View My Work</span>
-              <ArrowRightIcon className="ml-2 h-5 w-5" />
+              <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             
             <Button variant="outline" className="bg-secondary/50 border-secondary text-lg px-8 py-6">
@@ -47,13 +46,13 @@ export default function Hero() {
           <div className="mt-12 flex items-center justify-center md:justify-start space-x-4">
             <span className="text-sm text-foreground/50">Follow me:</span>
             <a href="#" className="hover:text-primary transition-colors">
-              <GitHubLogoIcon className="h-5 w-5" />
+              <Github className="h-5 w-5" />
             </a>
             <a href="#" className="hover:text-primary transition-colors">
-              <LinkedInLogoIcon className="h-5 w-5" />
+              <Linkedin className="h-5 w-5" />
             </a>
             <a href="#" className="hover:text-primary transition-colors">
-              <TwitterLogoIcon className="h-5 w-5" />
+              <Twitter className="h-5 w-5" />
             </a>
           </div>
         </div>
@@ -62,7 +61,7 @@ export default function Hero() {
       {/* Scroll Down */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
         <span className="text-sm font-medium mb-2 text-foreground/50">Scroll Down</span>
-        <ArrowDownIcon className="h-5 w-5 text-foreground/50" />
+        <ArrowDown className="h-5 w-5 text-foreground/50" />
       </div>
     </section>
   );
