@@ -100,27 +100,47 @@ export default function SkillsSection() {
             </h4>
             
             <div className="space-y-8">
-              {/* Experience Item 1 */}
+              {/* Experience Item 1 - Senior Frontend Developer at CLOUDEV */}
               <div className="relative pl-8 border-l border-border">
                 <div className="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary/30 border-2 border-primary transform -translate-x-2"></div>
-                <div className="mb-1 text-primary font-medium">2020 - Present</div>
-                <h5 className="text-xl font-bold mb-2">Senior Front-End Developer</h5>
-                <p className="text-muted-foreground mb-2">TechVision Labs</p>
+                <div className="mb-1 text-primary font-medium">Aug 2024 - Present</div>
+                <h5 className="text-xl font-bold mb-2">Senior Frontend Developer</h5>
+                <p className="text-muted-foreground mb-2">CLOUDEV · Full-time</p>
                 <p className="text-sm text-foreground/70">
-                  Led the development of multiple high-traffic web applications, collaborated with UX/UI designers, 
-                  and mentored junior developers.
+                  Damascus, Damascus Governorate, Syria · On-site
                 </p>
               </div>
               
-              {/* Experience Item 2 */}
+              {/* Experience Item 2 - Frontend Engineer at Netwitcher UG */}
               <div className="relative pl-8 border-l border-border">
                 <div className="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary/30 border-2 border-primary transform -translate-x-2"></div>
-                <div className="mb-1 text-primary font-medium">2018 - 2020</div>
-                <h5 className="text-xl font-bold mb-2">Front-End Developer</h5>
-                <p className="text-muted-foreground mb-2">WebCraft Solutions</p>
+                <div className="mb-1 text-primary font-medium">Jun 2024 - Present</div>
+                <h5 className="text-xl font-bold mb-2">Frontend Engineer</h5>
+                <p className="text-muted-foreground mb-2">Netwitcher UG · Freelance</p>
                 <p className="text-sm text-foreground/70">
-                  Developed responsive websites and web applications, implemented modern UI libraries and frameworks, 
-                  and optimized site performance.
+                  Germany · Remote
+                </p>
+              </div>
+
+              {/* Experience Item 3 - Odoo Devops at ITOS Solutions for Life */}
+              <div className="relative pl-8 border-l border-border">
+                <div className="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary/30 border-2 border-primary transform -translate-x-2"></div>
+                <div className="mb-1 text-primary font-medium">Feb 2022 - Aug 2024</div>
+                <h5 className="text-xl font-bold mb-2">Odoo Devops</h5>
+                <p className="text-muted-foreground mb-2">ITOS Solutions for Life · Full-time</p>
+                <p className="text-sm text-foreground/70">
+                  Damascus, Damascus Governorate, Syria · On-site
+                </p>
+              </div>
+
+              {/* Experience Item 4 - Frontend Developer at ASTUDIO */}
+              <div className="relative pl-8 border-l border-border">
+                <div className="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary/30 border-2 border-primary transform -translate-x-2"></div>
+                <div className="mb-1 text-primary font-medium">Apr 2023 - May 2024</div>
+                <h5 className="text-xl font-bold mb-2">Frontend Developer</h5>
+                <p className="text-muted-foreground mb-2">ASTUDIO</p>
+                <p className="text-sm text-foreground/70">
+                  Dubai, United Arab Emirates · Remote
                 </p>
               </div>
             </div>
