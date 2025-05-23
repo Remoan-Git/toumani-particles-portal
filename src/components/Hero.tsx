@@ -4,6 +4,13 @@ import { Github, Linkedin, Twitter, ArrowDown, ArrowRight } from "lucide-react";
 import ParticlesBackground from "./ParticlesBackground";
 
 export default function Hero() {
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="home" className="relative min-h-screen flex items-center">
       {/* Particles Background */}
@@ -33,12 +40,19 @@ export default function Hero() {
           </p>
           
           <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
-            <Button className="btn-gradient text-lg px-8 py-6">
+            <Button 
+              className="btn-gradient text-lg px-8 py-6"
+              onClick={() => scrollToSection('projects')}
+            >
               <span className="relative z-10">View My Work</span>
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             
-            <Button variant="outline" className="bg-secondary/50 border-secondary text-lg px-8 py-6">
+            <Button 
+              variant="outline" 
+              className="bg-secondary/50 border-secondary text-lg px-8 py-6"
+              onClick={() => scrollToSection('contact')}
+            >
               <span>Contact Me</span>
             </Button>
           </div>
